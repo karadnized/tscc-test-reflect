@@ -1,0 +1,21 @@
+{
+    "modules": {
+      "out": "src/main.ts"
+    },
+    "prefix": "dist/",
+    "debug": {
+        "persistArtifacts": true
+    },
+    "external": {
+        "reflect-metadata": "Reflect"
+    },
+    "compilerFlags": {
+      "assume_function_wrapper": true,
+      "rewrite_polyfills": false,
+      "env": "browser",
+      "compilation_level": "ADVANCED_OPTIMIZATIONS",
+      "use_types_for_optimization": true,
+      "output_wrapper": "(function(){%output%})()"
+    }
+  }
+  

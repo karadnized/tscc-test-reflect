@@ -1,0 +1,26 @@
+{
+  "name": "tscc-test-reflect",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tscc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karadnized/tscc-test-reflect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karadnized/tscc-test-reflect/issues"
+  },
+  "homepage": "https://github.com/karadnized/tscc-test-reflect#readme",
+  "devDependencies": {
+    "@tscc/tscc": "^0.9.3",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.7.4"
+  }
+}

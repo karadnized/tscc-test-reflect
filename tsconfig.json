@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "ESNext",
+      "lib": ["esnext", "dom"],
+      "alwaysStrict": true,
+      "noImplicitReturns": true,
+      "moduleResolution": "node",
+      "allowJs": true,
+      "noImplicitThis": true,
+      "importHelpers": false,
+      "strictBindCallApply": true,
+      "strictFunctionTypes": true,
+      "strictNullChecks": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitAny": false,
+      "esModuleInterop": false,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    }
+}
+  
